@@ -121,6 +121,7 @@ jobs:
                       src\\RuleSelection\\bin\\Debug\\*.dll;\
                       src\\Telemetry\\bin\\Debug\\*.dll;\
                       src\\Win32\\bin\\Debug\\*.dll;"
+    enabled: false
 
   - task: securedevelopmentteam.vss-secure-development-tools.build-task-credscan.CredScan@2
     displayName: 'Run CredScan'
